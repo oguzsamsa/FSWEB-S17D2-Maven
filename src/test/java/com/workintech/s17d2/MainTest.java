@@ -166,7 +166,7 @@ class MainTest {
 
         //management.info.env.enabled
         String managementInfoEnvEnabled = env.getProperty("management.info.env.enabled");
-        assertNotNull(managementInfoEnvEnabled);
+            assertNotNull(managementInfoEnvEnabled);
         assertThat(managementInfoEnvEnabled).isEqualTo("true");
 
 
